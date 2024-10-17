@@ -79,8 +79,8 @@
         <div class="row">
           <div class="col-xl-4 col-lg-5" data-aos="fade-up">
             <div class="content">
-              <h3>Pasos para contratar</h3>
-              <p>Sigue los pasos para hacer realidad tu <em>Proyecto</em>, luego nos contactaremos contigo para ajustar los detalles del desarrollo</p>
+              <h3>Crea tu web de forma segura</h3>
+              <p>Realiza el pago de la web una vez terminada y que estés conforme con su diseño</p>
             </div>
           </div>
           <div class="col-xl-8 col-lg-7 d-flex">
@@ -88,23 +88,23 @@
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Paso 1</h4>
-                    <p>Selecciona un plan que se ajuste a tus necesidades</p>
+                    <i class="bx bx-list-ul"></i>
+                    <h4>Selección</h4>
+                    <p>Selecciona un plan que se ajuste a tus necesidades y una plantilla en relación al plan seleccionado.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Paso 2</h4>
-                    <p>Selecciona una plantilla en relación al plan seleccionado</p>
+                    <i class="bx bx-paint-roll"></i>
+                    <h4>Desarrollo</h4>
+                    <p>Realiza la solicitud y nosotros nos contactaremos para crear la página y montar una demo para ver los avances.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Paso 3</h4>
-                    <p>Rellena el formulario y selecciona el método de envío</p>
+                    <i class="bx bx-dollar"></i>
+                    <h4>Pago</h4>
+                    <p>Ya aprobada la demo, se realiza el pago y se crea el dominio junto con los correos en base al plan previamente seleccionado.</p>
                   </div>
                 </div>
               </div>
@@ -122,7 +122,7 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up">Planes</h2>
-          <p data-aos="fade-up">Escoge la mejor opción entre nuestros <em>Planes</em>.</p>
+          <p data-aos="fade-up">Escoge la mejor opción para tus necesidades entre nuestros <em>Planes</em>.</p>
         </div>
 
         <div class="row">
@@ -135,6 +135,7 @@
                 <li>Página estática</li>
                 <li>Sólo Modelo Landing Page</li>
                 <li>1 Correo Electrónico</li>
+                <li>Hosting incluido</li>
                 <li>Renovación Anual por $25.000</li>
               </ul>
             </div>
@@ -148,6 +149,7 @@
                 <li>Página estática</li>
                 <li>Modelo Landing Page o Sitio de 5 Páginas</li>
                 <li>3 Correos Electrónicos</li>
+                <li>Hosting incluido</li>
                 <li>Renovación Anual por $25.000</li>
               </ul>
             </div>
@@ -161,6 +163,7 @@
                 <li>Página estática</li>
                 <li>Modelo Landing Page o Sitio de 10 Páginas</li>
                 <li>5 Correos Electrónicos</li>
+                <li>Hosting incluido</li>
                 <li>Renovación Anual por $25.000</li>
               </ul>
             </div>
@@ -175,6 +178,7 @@
                 <li>Página autoadministrable</li>
                 <li>Modelo Landing Page o Sitio de 15 Páginas</li>
                 <li>5 Correos Electrónicos</li>
+                <li>Hosting incluido</li>
                 <li>Renovación Anual por $35.000</li>
               </ul>
             </div>
@@ -226,10 +230,10 @@
             <form autocomplete="off" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="form_name" placeholder="Nombre" value="" required>
+                  <input type="text" name="name" class="form-control" id="form_name" placeholder="Nombre" value="">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email"  class="form-control" name="email" id="form_email" placeholder="Email" value="" required>
+                  <input type="email"  class="form-control" name="email" id="form_email" placeholder="Email" value="">
                 </div>
               </div>
               <div class="row mt-3">
@@ -249,10 +253,7 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="number" class="form-control" name="Phone" id="form_phone" placeholder="Numero Telefónico" value="" required="" />
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" id="form_message" rows="5" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" name="message" id="form_message" rows="5" placeholder="Mensaje"></textarea>
               </div>
               <div class="text-center mt-3">
                 <button type="submit" onclick="gotowhatsapp()">Solicitar Plan</button></div>
@@ -297,10 +298,10 @@
   <script>
     //se agregan modelos
     demo1.forEach((item, i) => {
-      document.getElementById('log').innerHTML += '<div class="col-lg-3 col-md-6 portfolio-item filter-landing"><img src="assets/img/portfolio/screen1/'+item.folder+'.jpg" class="img-fluid" alt=""><div class="portfolio-info"><h4>'+item.Name+'</h4><a href="https://promocion.digitalcreations.cl/demo_one_page/'+item.folder+'/" target="_blank" rel="noreferrer noopener" class="details-link" title="More Details"><i class="bx bx-link"></i></a></div></div>';
+      document.getElementById('log').innerHTML += '<div class="col-lg-3 col-md-6 portfolio-item filter-landing"><img src="assets/img/portfolio/screen1/'+item.folder+'.jpg" class="img-fluid" alt=""><div class="portfolio-info"><h4>'+item.Name+'</h4><a href="https://promocion.digitalcreations.cl/demo_one_page/'+item.folder+'/" target="_blank" rel="noreferrer noopener" class="details-link" title="Ver demo"><i class="bx bx-link"></i></a></div></div>';
     });
     demo2.forEach((item, i) => {
-      document.getElementById('log').innerHTML += '<div class="col-lg-3 col-md-6 portfolio-item filter-sites"><img src="assets/img/portfolio/screen2/'+item.folder+'.jpg" class="img-fluid" alt=""><div class="portfolio-info"><h4>'+item.Name+'</h4><a href="https://promocion.digitalcreations.cl/demo_pages/'+item.folder+'/" target="_blank" rel="noreferrer noopener" class="details-link" title="More Details"><i class="bx bx-link"></i></a></div></div>';
+      document.getElementById('log').innerHTML += '<div class="col-lg-3 col-md-6 portfolio-item filter-sites"><img src="assets/img/portfolio/screen2/'+item.folder+'.jpg" class="img-fluid" alt=""><div class="portfolio-info"><h4>'+item.Name+'</h4><a href="https://promocion.digitalcreations.cl/demo_pages/'+item.folder+'/" target="_blank" rel="noreferrer noopener" class="details-link" title="Ver demo"><i class="bx bx-link"></i></a></div></div>';
     });
 
     //se agregan modelos en base a los planes
@@ -338,17 +339,51 @@
     }
 
     //envio mensaje
+    function generarCadena(texto, variable) {
+      //si no hay dato
+      if (typeof variable === "string" && variable.length === 0) {
+        return "";
+      } else if (variable === null) {
+        return "";
+      } else {
+        return texto+": " + variable + "%0a";
+      }
+    }
+
+    //envio mensaje
     function gotowhatsapp() {
-        //obtengo datos
-        var name    = document.getElementById("form_name").value;
-        var email   = document.getElementById("form_email").value;
-        var plan    = document.getElementById("form_plan").value;
-        var modelo  = document.getElementById("form_modelo").value;
-        var phone   = document.getElementById("form_phone").value;
-        var message = document.getElementById("form_message").value;
+      //obtengo datos
+      var name    = document.getElementById("form_name").value;
+      var email   = document.getElementById("form_email").value;
+      var plan    = document.getElementById("form_plan").value;
+      var modelo  = document.getElementById("form_modelo").value;
+      var message = document.getElementById("form_message").value;
+
+      //si no hay dato
+      if (typeof plan === "string" && plan.length === 0) {
+        alert("El plan no ha sido seleccionado");
+        document.getElementById("form_plan").focus();
+      } else if (plan === null) {
+        alert("El plan no ha sido seleccionado");
+        document.getElementById("form_plan").focus();
+      } else if (typeof modelo === "string" && modelo.length === 0) {
+        alert("El modelo no ha sido seleccionado");
+        document.getElementById("form_modelo").focus();
+      } else if (modelo === null) {
+        alert("El modelo no ha sido seleccionado");
+        document.getElementById("form_modelo").focus();
+      } else {
+        //se genera la cadena
+        let cadena = "";
+        cadena += generarCadena("Nombre", name);
+        cadena += generarCadena("Email", email);
+        cadena += generarCadena("Plan seleccionado", plan);
+        cadena += generarCadena("Modelo", modelo);
+        cadena += generarCadena("Mensaje", message);
         //genero url
-        var url = "https://api.whatsapp.com/send?phone=+56955391914&text=Name: " + name + "%0a Email: " + email  + "%0a Plan: " + plan  + "%0a Modelo: " + modelo  + "%0a Fono: " + phone + "%0a Mensaje: " + message;
+        var url = "https://api.whatsapp.com/send?phone=+56955391914&text=" + cadena;
         window.open(url, '_blank').focus();
+      }
     }
   </script>
 

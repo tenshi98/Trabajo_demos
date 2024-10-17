@@ -79,7 +79,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #39312f;
+  background: #111111;
   font-size: 14px;
   padding: 0;
   color: rgba(255, 255, 255, 0.8);
@@ -137,12 +137,15 @@ h6 {
   margin: 0;
   line-height: 0;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#header .logo h1 span {
+  color: #fe664e;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #635551;
+  color: #111111;
   text-decoration: none;
 }
 
@@ -190,7 +193,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #635551;
+  color: #111111;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -530,7 +533,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   font-family: "Poppins", sans-serif;
-  color: #635551;
+  color: #111111;
 }
 
 .section-title p {
@@ -567,7 +570,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #635551;
+  color: #111111;
   content: "/";
 }
 
@@ -1124,7 +1127,7 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #635551;
+  color: #111111;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -1888,7 +1891,7 @@ section {
 .blog .blog-comments .comment time {
   display: block;
   font-size: 14px;
-  color: #635551;
+  color: #111111;
   margin-bottom: 5px;
 }
 
