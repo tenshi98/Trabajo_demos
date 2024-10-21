@@ -352,7 +352,7 @@
       }
     }
 
-    //envio mensaje
+    //funcion para generar una cadena
     function generarCadena(texto, variable) {
       //si no hay dato
       if (typeof variable === "string" && variable.length === 0) {
@@ -388,7 +388,7 @@
         document.getElementById("form_modelo").focus();
       } else {
         //se genera la cadena
-        let cadena = "";
+        let cadena = "Me interesa solicitar el desarrollo de Web";
         cadena += generarCadena("Nombre", name);
         cadena += generarCadena("Email", email);
         cadena += generarCadena("Plan seleccionado", plan);
