@@ -373,31 +373,17 @@
       var modelo  = document.getElementById("form_modelo").value;
       var message = document.getElementById("form_message").value;
 
-      //si no hay dato
-      if (typeof plan === "string" && plan.length === 0) {
-        alert("El plan no ha sido seleccionado");
-        document.getElementById("form_plan").focus();
-      } else if (plan === null) {
-        alert("El plan no ha sido seleccionado");
-        document.getElementById("form_plan").focus();
-      } else if (typeof modelo === "string" && modelo.length === 0) {
-        alert("El modelo no ha sido seleccionado");
-        document.getElementById("form_modelo").focus();
-      } else if (modelo === null) {
-        alert("El modelo no ha sido seleccionado");
-        document.getElementById("form_modelo").focus();
-      } else {
-        //se genera la cadena
-        let cadena = "Me interesa solicitar el desarrollo de una pagina Web %0a";
-        cadena += generarCadena("Nombre", name);
-        cadena += generarCadena("Email", email);
-        cadena += generarCadena("Plan seleccionado", plan);
-        cadena += generarCadena("Modelo", modelo);
-        cadena += generarCadena("Mensaje", message);
-        //genero url
-        var url = "https://api.whatsapp.com/send?phone=+56955391914&text=" + cadena;
-        window.open(url, '_blank').focus();
-      }
+      //Envio del mensaje
+      //se genera la cadena
+      let cadena = "Me interesa solicitar el desarrollo de una pagina Web %0a";
+      cadena += generarCadena("Nombre", name);
+      cadena += generarCadena("Email", email);
+      cadena += generarCadena("Plan seleccionado", plan);
+      cadena += generarCadena("Modelo", modelo);
+      cadena += generarCadena("Mensaje", message);
+      //genero url
+      var url = "https://api.whatsapp.com/send?phone=+56955391914&text=" + cadena;
+      window.open(url, '_blank').focus();
     }
   </script>
 
